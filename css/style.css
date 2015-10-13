@@ -1,0 +1,39 @@
+body {
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #D88B8B;
+}
+
+header {
+	text-align: center;
+	border: 3px solid lightgrey;
+	box-shadow: 0 0 4px black;
+	padding: 30px 15px;
+	background-color: #632C2C;
+}
+
+h1 {
+	margin: 0;
+	font-family: 'cabin';
+	border-bottom: 1px solid white;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	width: 300px;
+	margin: 4px 0;
+	box-shadow: 0 0 2px grey;
+	border: none;
+}
